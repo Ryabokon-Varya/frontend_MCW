@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lobster&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.all_block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(68, 69, 67, 0.89);
+    border-radius: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.block_link{
+    width: 30%;
+}
+.element_text{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(51, 40, 40);
+    margin: 10px;
+}
+.input_info{
+    width: 60%;
+    margin-left: auto;
+    margin-right:  auto;
+    height: 7%;
+}
+.input_info2{
+    width: 60%;
+    margin-left: auto;
+    margin-right:  auto;
+    height: 30px;
+}
+.button_reg{
+    width: 60%;
+    margin-left: auto;
+    margin-right:  auto;
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #d3d0d0;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.button_link_log{
+    width: 60%;
+    margin-left: auto;
+    margin-right:  auto;
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #d3d0d0;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.block_stule{
+    display: flex;
+    flex-direction: column;
+}
+.block_input{
+    width: 60%;
+    margin-left: auto;
+    margin-right:  auto;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #e9e8e8;
+}
